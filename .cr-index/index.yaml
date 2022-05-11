@@ -1,0 +1,34 @@
+apiVersion: v1
+entries:
+  autobrr:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: added
+          description: Initial release
+    apiVersion: v2
+    appVersion: v0.23.0
+    created: "2022-05-12T11:19:24.274995+12:00"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.4.2
+    description: autobrr monitors IRC announce channels to get releases as soon as
+      they are available with good filtering
+    digest: 736cc2f34dd09d917e46bc85a60866b2389812936fc4813a07ffad2f11fefb0a
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/autobrr
+    icon: https://avatars.githubusercontent.com/u/88781313?s=200&v=4
+    keywords:
+    - autobrr
+    - torrrent
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: davidy@funkypenguin.co.nz
+      name: funkypenguin
+    name: autobrr
+    sources:
+    - https://github.com/autobrr/autobrr
+    - https://github.com/k8s-at-home/container-images
+    urls:
+    - https://github.com/funkypenguin/helm-autobrr/releases/download/autobrr-1.0.0/autobrr-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-05-12T11:19:24.275003+12:00"
